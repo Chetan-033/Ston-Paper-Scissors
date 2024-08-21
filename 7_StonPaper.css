@@ -1,0 +1,70 @@
+ body{
+    background-color: rgb(128, 29, 29);
+    text-align: center;
+ }
+ nav{
+    margin: 20px;
+    background-color: rgb(83, 16, 16);
+    color: antiquewhite;
+ }
+ h1{
+    line-height: 5rem;
+ }
+ .choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+ }
+ .choice{
+    height: 114px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+ }
+ .choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: rgb(46, 38, 38);
+
+ }
+ button{
+    border-radius: 50%;
+    height: 100px;
+    width : 100px;
+    font-size: 3.5rem;
+ }
+button:hover{
+   cursor: pointer;
+   background-color: rgb(109, 66, 66);
+   font-size: 5rem;
+}
+
+ /* score Board */
+ .score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+ }
+ #userScore,#compScore{
+    font-size: 3rem;
+ }
+ .name{
+    font-size: 3rem;
+ }
+ .msg-container{
+    margin: 2rem;
+    
+ }
+ #msg{
+    background-color: rgb(225, 52, 109);
+    color: antiquewhite;
+    display: inline;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+ }
